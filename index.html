@@ -4,13 +4,18 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Nicolas and Emily's Wedding</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.hidden {
+      			display: none;
+    		}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -24,27 +29,60 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Nicolas and Emily's Wedding</h1>
-								<p>
-									Dear friends and family,<br>
-									To make the necessary arrangements, we will find it helpful to know your plans ahead of time. <br>
-									We ask you to fill the <b>RSVP form</b> by the <b>23rd of March 2026</b> to let us know.<br>
-									Looking forward to hearing your response!<br>
-									Much love and wishes,<br>
-									Emily and Nicolas
-								</p>
+								<div class="en">
+									<h1>Nicolas and Emily's Wedding</h1>
+									<p>
+										Dear friends and family,<br>
+										To make the necessary arrangements, we will find it helpful to know your plans ahead of time.<br>
+										We ask you to fill the <b>RSVP form</b> by the <b>23rd of March 2026</b> to let us know.<br>
+										Looking forward to hearing your response!<br>
+										Much love and wishes,<br>
+										Emily and Nicolas
+									</p>
+								</div>
+								<div class="fr hidden">
+									<h1>Marriage de Nicolas et Emily</h1>
+									<p>
+										Chers amis et famille,<br>
+										Afin de faciliter notre organisation, nous aimerions connaître vos projets à l'avance.<br>
+										Nous vous demandons de remplir le <b>formulaire RSVP</b> avant le <b>23 mars 2026</b>.<br>
+										Dans l'attente de vos réponses !<br>
+										Avec tout notre amour,<br>
+										Emily et Nicolas
+									</p>
+								</div>
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9dsnwUWaHq5wzfXsSpnOqV61Z0iYcLIRWXUfkIkmErjWJtA/viewform?usp=dialog">RSVP</a></li>
-								<li><a href="#venue">Venue</a></li>
-								<li><a href="#schedule">Schedule</a></li>
-								<li><a href="#tourism">Tourism</a></li>
-								<li><a href="#faq">FAQ</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
+						<div class="menu">
+							<div class="en">
+								<nav>
+									<ul>
+										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9dsnwUWaHq5wzfXsSpnOqV61Z0iYcLIRWXUfkIkmErjWJtA/viewform?usp=dialog">RSVP</a></li>
+										<li><a href="#venue">Venue</a></li>
+										<li><a href="#schedule">Schedule</a></li>
+										<li><a href="#tourism">Tourism</a></li>
+										<li><a href="#faq">FAQ</a></li>
+										<!--<li><a href="#elements">Elements</a></li>-->
+									</ul>
+								</nav>
+							</div>
+							<div class="fr hidden">
+								<nav>
+									<ul>
+										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9dsnwUWaHq5wzfXsSpnOqV61Z0iYcLIRWXUfkIkmErjWJtA/viewform?usp=dialog">RSVP</a></li>
+										<li><a href="#venue">Lieu</a></li>
+										<li><a href="#schedule">Planning</a></li>
+										<li><a href="#tourism">Tourisme</a></li>
+										<li><a href="#faq">FAQ</a></li>
+										<!--<li><a href="#elements">Elements</a></li>-->
+									</ul>
+								</nav>
+							</div>
+							<br>
+							<button id="lang-toggle">
+    							<img src="images/fr.png" alt="Français" id="lang-flag">
+  							</button>
+						</div>
 					</header>
 
 				<!-- Main -->
@@ -52,91 +90,180 @@
 
 						<!-- Venue -->
 							<article id="venue">
-								<h2 class="major">Venue</h2>
-								<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
-								<p>The wedding party will take place in Nunney, United Kingdom, at the <a href="https://www.google.com/maps/place/Nunney+Village+Hall/@51.2084233,-2.3777017,17z/data=!3m1!4b1!4m6!3m5!1s0x48722d0026f773eb:0xe2ee72681bc70c9c!8m2!3d51.2084233!4d-2.3777017!16s%2Fg%2F11bcdhpr22?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D">village hall</a>.</p>
-								<p>
-									<b>Address:</b><br>
-									Nunney Village Hall<br>
-									Berry Hill<br>
-									Nunney, Frome<br>
-									BA11 4NR<br>
-								</p>
-								<p>
-									<b>Parking:</b><br>
-									Space to park your vehicle is available at the site of the venue.<br>
-								</p>
+								<div class="en">
+									<h2 class="major">Venue</h2>
+									<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
+									<p>The wedding party will take place in Nunney, United Kingdom, at the <a href="https://www.google.com/maps/place/Nunney+Village+Hall/@51.2084233,-2.3777017,17z/data=!3m1!4b1!4m6!3m5!1s0x48722d0026f773eb:0xe2ee72681bc70c9c!8m2!3d51.2084233!4d-2.3777017!16s%2Fg%2F11bcdhpr22?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D">village hall</a>.</p>
+									<p>
+										<b>Address:</b><br>
+										Nunney Village Hall<br>
+										Berry Hill<br>
+										Nunney, Frome<br>
+										BA11 4NR<br>
+									</p>
+									<p>
+										<b>Parking:</b><br>
+										Space to park your vehicle is available at the site of the venue.<br>
+									</p>
+								</div>
+								<div class="fr hidden">
+									<h2 class="major">Lieu</h2>
+									<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
+									<p>La fête de mariage aura lieu à Nunney, au Royaume-Uni, à la <a href="https://www.google.com/maps/place/Nunney+Village+Hall/@51.2084233,-2.3777017,17z/data=!3m1!4b1!4m6!3m5!1s0x48722d0026f773eb:0xe2ee72681bc70c9c!8m2!3d51.2084233!4d-2.3777017!16s%2Fg%2F11bcdhpr22?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D">salle des fêtes</a>.</p>
+									<p>
+										<b>Adresse:</b><br>
+										Nunney Village Hall<br>
+										Berry Hill<br>
+										Nunney, Frome<br>
+										BA11 4NR<br>
+									</p>
+									<p>
+										<b>Parking:</b><br>
+										Des places de parking sont disponibles sur le lieu de l'évènement.<br>
+									</p>
+								</div>
 							</article>
 
 						<!-- Schedule -->
 							<article id="schedule">
-								<h2 class="major">Schedule</h2>
-								<!--<span class="image main"><img src="images/pic02.jpg" alt="" /></span>-->
-								<p><b>Date:</b><br>
-									23rd May, Saturday, 2026<br>
-								</p>
-								<p><b>Time:</b><br>
-									Guests arrival: 3:00 PM<br>
-									Reception & Buffet: 5:00 PM
-								</p>
+								<div class="en">
+									<h2 class="major">Schedule</h2>
+									<!--<span class="image main"><img src="images/pic02.jpg" alt="" /></span>-->
+									<p><b>Date:</b><br>
+										23rd May, Saturday, 2026<br>
+									</p>
+									<p><b>Time:</b><br>
+										Guests arrival: 3:00 PM<br>
+										Reception & Buffet: 5:00 PM
+									</p>
+								</div>
+								<div class="fr hidden">
+									<h2 class="major">Planning</h2>
+									<!--<span class="image main"><img src="images/pic02.jpg" alt="" /></span>-->
+									<p><b>Date:</b><br>
+										Samedi 23 Mai 2026<br>
+									</p>
+									<p><b>Horaires:</b><br>
+										Arrivée des invités: 15h00<br>
+										Réception et Buffet: 17h00
+									</p>
+								</div>
 							</article>
 
 						<!-- Tourism -->
 							<article id="tourism">
-								<h2 class="major">Tourism</h2>
-								<p><b><a href="https://www.google.com/maps/place/Nunney+Castle/@51.210183,-2.3799848,18.25z/data=!4m6!3m5!1s0x48722fe8f66b8f55:0xdefe07e8aafb500f!8m2!3d51.2101576!4d-2.3783201!16zL20vMDlqdG40?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=615ca24c-c2fb-4001-8332-3bd2fb8b9f99" target="_blank">Nunney Castle</a></b><br>
-									<span class="image main"><img src="images/nunney-castle.jpg" alt="" /></span>
-								</p>
-								<p><b><a href="https://www.google.com/maps/place/Stonehenge/@51.1788853,-1.8287899,17z/data=!3m1!4b1!4m6!3m5!1s0x4873e63b850af611:0x979170e2bcd3d2dd!8m2!3d51.178882!4d-1.826215!16zL20vMDZ3Zmc?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=19f956f9-f899-4c44-91e3-2a3660ed746a" target="_blank">Stonehenge</a></b><br>
-									<span class="image main"><img src="images/stonehenge.jpg" alt="" /></span>
-								</p>
-								<p><b><a href="https://www.google.com/maps/place/Stourhead/@51.1058697,-2.3399504,15z/data=!3m1!4b1!4m6!3m5!1s0x48723307cef3205d:0xb8cf269db05f4014!8m2!3d51.1051118!4d-2.3179141!16zL20vMDI0eG54?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=82e34244-9b9f-4281-86df-96578fb98114" target="_blank">Stourhead</a></b><br>
-									<span class="image main"><img src="images/stourhead.jpg" alt="" /></span>
-								</p>
-								<p><b><a href="https://www.google.com/maps/place/Wells,+UK/@51.2090073,-2.6683341,14z/data=!3m1!4b1!4m6!3m5!1s0x4872185191009fcf:0x5143d917ea215432!8m2!3d51.2104862!4d-2.6467584!16zL20vMGZsMDk?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=ecd4eba0-dbb4-424d-a2b8-b3333a57bd93" target="_blank">Wells</a></b><br>
-									<span class="image main"><img src="images/wells.png" alt="" /></span>
-								</p>
-								<p><b><a href="https://www.google.com/maps/place/Longleat/@51.266247,-2.7101613,13z/data=!4m6!3m5!1s0x4873d2cd2385f7d3:0x8419d94c1fc41d58!8m2!3d51.1884687!4d-2.2388617!16zL20vMDg2ZnQ2?entry=tts&g_ep=EgoyMDI1MDgyNC4wIPu8ASoASAFQAw%3D%3D&skid=71050945-d112-4e99-b839-5dce57f8c31b" target="_blank">Longleat</a></b><br>
-									<span class="image main"><img src="images/longleat.jpg" alt="" /></span>
-								</p>
-								<p><b><a href="https://www.google.com/maps/place/Bath,+UK/@51.3801728,-2.4057294,13z/data=!4m6!3m5!1s0x487178a6743ee12d:0x138b27d0d66d9a09!8m2!3d51.3781018!4d-2.3596827!16zL20vMGJkZzU?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=b046c8ce-378c-4436-9277-ed658503e15a" target="_blank">Bath</a></b><br>
-									<span class="image main"><img src="images/bath.jpg" alt="" /></span>
-								</p>
+								<div class="en">
+									<h2 class="major">Tourism</h2>
+									<p><b><a href="https://www.google.com/maps/place/Nunney+Castle/@51.210183,-2.3799848,18.25z/data=!4m6!3m5!1s0x48722fe8f66b8f55:0xdefe07e8aafb500f!8m2!3d51.2101576!4d-2.3783201!16zL20vMDlqdG40?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=615ca24c-c2fb-4001-8332-3bd2fb8b9f99" target="_blank">Nunney Castle</a></b><br>
+										<span class="image main"><img src="images/nunney-castle.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Stonehenge/@51.1788853,-1.8287899,17z/data=!3m1!4b1!4m6!3m5!1s0x4873e63b850af611:0x979170e2bcd3d2dd!8m2!3d51.178882!4d-1.826215!16zL20vMDZ3Zmc?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=19f956f9-f899-4c44-91e3-2a3660ed746a" target="_blank">Stonehenge</a></b><br>
+										<span class="image main"><img src="images/stonehenge.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Stourhead/@51.1058697,-2.3399504,15z/data=!3m1!4b1!4m6!3m5!1s0x48723307cef3205d:0xb8cf269db05f4014!8m2!3d51.1051118!4d-2.3179141!16zL20vMDI0eG54?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=82e34244-9b9f-4281-86df-96578fb98114" target="_blank">Stourhead</a></b><br>
+										<span class="image main"><img src="images/stourhead.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Wells,+UK/@51.2090073,-2.6683341,14z/data=!3m1!4b1!4m6!3m5!1s0x4872185191009fcf:0x5143d917ea215432!8m2!3d51.2104862!4d-2.6467584!16zL20vMGZsMDk?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=ecd4eba0-dbb4-424d-a2b8-b3333a57bd93" target="_blank">Wells</a></b><br>
+										<span class="image main"><img src="images/wells.png" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Longleat/@51.266247,-2.7101613,13z/data=!4m6!3m5!1s0x4873d2cd2385f7d3:0x8419d94c1fc41d58!8m2!3d51.1884687!4d-2.2388617!16zL20vMDg2ZnQ2?entry=tts&g_ep=EgoyMDI1MDgyNC4wIPu8ASoASAFQAw%3D%3D&skid=71050945-d112-4e99-b839-5dce57f8c31b" target="_blank">Longleat</a></b><br>
+										<span class="image main"><img src="images/longleat.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Bath,+UK/@51.3801728,-2.4057294,13z/data=!4m6!3m5!1s0x487178a6743ee12d:0x138b27d0d66d9a09!8m2!3d51.3781018!4d-2.3596827!16zL20vMGJkZzU?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=b046c8ce-378c-4436-9277-ed658503e15a" target="_blank">Bath</a></b><br>
+										<span class="image main"><img src="images/bath.jpg" alt="" /></span>
+									</p>
+								</div>
+								<div class="fr hidden">
+									<h2 class="major">Tourisme</h2>
+									<p><b><a href="https://www.google.com/maps/place/Nunney+Castle/@51.210183,-2.3799848,18.25z/data=!4m6!3m5!1s0x48722fe8f66b8f55:0xdefe07e8aafb500f!8m2!3d51.2101576!4d-2.3783201!16zL20vMDlqdG40?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=615ca24c-c2fb-4001-8332-3bd2fb8b9f99" target="_blank">Château de Nunney</a></b><br>
+										<span class="image main"><img src="images/nunney-castle.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Stonehenge/@51.1788853,-1.8287899,17z/data=!3m1!4b1!4m6!3m5!1s0x4873e63b850af611:0x979170e2bcd3d2dd!8m2!3d51.178882!4d-1.826215!16zL20vMDZ3Zmc?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=19f956f9-f899-4c44-91e3-2a3660ed746a" target="_blank">Stonehenge</a></b><br>
+										<span class="image main"><img src="images/stonehenge.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Stourhead/@51.1058697,-2.3399504,15z/data=!3m1!4b1!4m6!3m5!1s0x48723307cef3205d:0xb8cf269db05f4014!8m2!3d51.1051118!4d-2.3179141!16zL20vMDI0eG54?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=82e34244-9b9f-4281-86df-96578fb98114" target="_blank">Stourhead</a></b><br>
+										<span class="image main"><img src="images/stourhead.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Wells,+UK/@51.2090073,-2.6683341,14z/data=!3m1!4b1!4m6!3m5!1s0x4872185191009fcf:0x5143d917ea215432!8m2!3d51.2104862!4d-2.6467584!16zL20vMGZsMDk?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=ecd4eba0-dbb4-424d-a2b8-b3333a57bd93" target="_blank">Wells</a></b><br>
+										<span class="image main"><img src="images/wells.png" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Longleat/@51.266247,-2.7101613,13z/data=!4m6!3m5!1s0x4873d2cd2385f7d3:0x8419d94c1fc41d58!8m2!3d51.1884687!4d-2.2388617!16zL20vMDg2ZnQ2?entry=tts&g_ep=EgoyMDI1MDgyNC4wIPu8ASoASAFQAw%3D%3D&skid=71050945-d112-4e99-b839-5dce57f8c31b" target="_blank">Longleat</a></b><br>
+										<span class="image main"><img src="images/longleat.jpg" alt="" /></span>
+									</p>
+									<p><b><a href="https://www.google.com/maps/place/Bath,+UK/@51.3801728,-2.4057294,13z/data=!4m6!3m5!1s0x487178a6743ee12d:0x138b27d0d66d9a09!8m2!3d51.3781018!4d-2.3596827!16zL20vMGJkZzU?entry=tts&g_ep=EgoyMDI1MDgwNi4wIPu8ASoASAFQAw%3D%3D&skid=b046c8ce-378c-4436-9277-ed658503e15a" target="_blank">Bath</a></b><br>
+										<span class="image main"><img src="images/bath.jpg" alt="" /></span>
+									</p>
+								</div>
 							</article>
 
 						<!-- FAQ -->
 							<article id="faq">
-								<h2 class="major">FAQ</h2>
-								<p>
-									<b>Where to stay?</b><br>
-									<span class="image main"><img src="images/the-george.jpg" alt="" /></span>
-									<ul>
-										<li><a href="https://www.thegeorgeinnnunney.com">The George</a></li>
-										<li><a href="https://www.stayatpennysmill.com">Penny's Mill</a></li>
-										<li><a href="https://www.theplacetostaysomerset.co.uk">Knoll Hill Farm</a></li>
-									</ul>
-									There are also many more options in Frome, the nearest town.<br>
-								</p>
-								<p>
-									<b>How to get there?</b><br>
+								<div class="en">
+									<h2 class="major">FAQ</h2>
 									<p>
-										<u>Taxi services:</u><br>
+										<b>Where to stay?</b><br>
+										<span class="image main"><img src="images/the-george.jpg" alt="" /></span>
 										<ul>
-											<li><a href="https://taxisfrome.com">Antony Taxis Frome</a></li>
-											<li><a href="https://frometaxis.co.uk">Smile Taxis</a></li>
-											<li><a href="https://mikestaxifrome.co.uk">Mike Taxis</a></li>
-											<li><a href="https://tonyscabsfrome.co.uk">Tony's Cabs</a></li>
-											<li>Uber (mostly works in Bristol)</li>
+											<li><a href="https://www.thegeorgeinnnunney.com">The George</a></li>
+											<li><a href="https://www.stayatpennysmill.com">Penny's Mill</a></li>
+											<li><a href="https://www.theplacetostaysomerset.co.uk">Knoll Hill Farm</a></li>
 										</ul>
+										There are also many more options in Frome, the nearest town.<br>
 									</p>
 									<p>
-										<u>Travel times:</u><br>
-										<ul>
-											<li>Bristol Airport to Nunney: about 40 minutes by car</li>
-											<li>Frome to Nunney: about 10 minutes by car (or <a href="https://bustimes.org/services/162-shepton-mallet-stoke-st-michael-nunney-frome">bus</a>)</li>
-										</ul>
+										<b>How to get there?</b><br>
+										<p>
+											<u>Taxi services:</u><br>
+											<ul>
+												<li><a href="https://taxisfrome.com">Antony Taxis Frome</a></li>
+												<li><a href="https://frometaxis.co.uk">Smile Taxis</a></li>
+												<li><a href="https://mikestaxifrome.co.uk">Mike Taxis</a></li>
+												<li><a href="https://tonyscabsfrome.co.uk">Tony's Cabs</a></li>
+												<li>Uber (mostly works in Bristol)</li>
+											</ul>
+										</p>
+										<p>
+											<u>Travel times:</u><br>
+											<ul>
+												<li>Bristol Airport to Nunney: about 40 minutes by car</li>
+												<li>Frome to Nunney: about 10 minutes by car (or <a href="https://bustimes.org/services/162-shepton-mallet-stoke-st-michael-nunney-frome">bus</a>)</li>
+											</ul>
+										</p>
 									</p>
-								</p>
+								</div>
+								<div class="fr hidden">
+									<h2 class="major">FAQ</h2>
+									<p>
+										<b>Où dormir?</b><br>
+										<span class="image main"><img src="images/the-george.jpg" alt="" /></span>
+										<ul>
+											<li><a href="https://www.thegeorgeinnnunney.com">The George</a></li>
+											<li><a href="https://www.stayatpennysmill.com">Penny's Mill</a></li>
+											<li><a href="https://www.theplacetostaysomerset.co.uk">Knoll Hill Farm</a></li>
+										</ul>
+										Il y a également de nombreuses offres du côté de Frome, la ville la plus proche.<br>
+									</p>
+									<p>
+										<b>Comment s'y rendre?</b><br>
+										<p>
+											<u>Services de taxi:</u><br>
+											<ul>
+												<li><a href="https://taxisfrome.com">Antony Taxis Frome</a></li>
+												<li><a href="https://frometaxis.co.uk">Smile Taxis</a></li>
+												<li><a href="https://mikestaxifrome.co.uk">Mike Taxis</a></li>
+												<li><a href="https://tonyscabsfrome.co.uk">Tony's Cabs</a></li>
+												<li>Uber (fonctionne surtout à Bristol)</li>
+											</ul>
+										</p>
+										<p>
+											<u>Temps de trajet:</u><br>
+											<ul>
+												<li>De l'aéroport de Bristol à Nunney: environ 40 minutes en voiture</li>
+												<li>De Frome à Nunney: environ 10 minutes en voiture (ou en <a href="https://bustimes.org/services/162-shepton-mallet-stoke-st-michael-nunney-frome">bus</a>)</li>
+											</ul>
+										</p>
+									</p>
+								</div>
 							</article>
 
 						<!-- Elements -->
@@ -399,6 +526,40 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+    			const btn = document.getElementById("lang-toggle");
+  				const flagImg = document.getElementById("lang-flag");
+
+  				// Because English is displayed by default
+  				let currentLang = "en";
+
+  				btn.addEventListener("click", () => {
+
+					// Switch from "en" to "fr" (or "fr" to "en")
+    				currentLang = currentLang === "en" ? "fr" : "en";
+
+					// Get all the blocks of text in English and French
+					const enBlocks = document.querySelectorAll(".en");
+    				const frBlocks = document.querySelectorAll(".fr");
+
+   	 				// Display the selected language and mask the other
+    				frBlocks.forEach(block => block.classList.toggle("hidden", currentLang !== "fr"));
+    				enBlocks.forEach(block => block.classList.toggle("hidden", currentLang !== "en"));
+
+    				// Update the flag image
+    				if (currentLang === "fr") {
+      					flagImg.src = "images/en.png";
+      					flagImg.alt = "English";
+    				} 
+					else {
+      					flagImg.src = "images/fr.png";
+      					flagImg.alt = "Français";
+    				}
+
+    				// Update the <html lang=""> attribute
+    				document.documentElement.lang = currentLang;
+				})
+  			</script>			
 
 	</body>
 </html>
